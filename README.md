@@ -32,6 +32,7 @@ OK, so if you've followed the math, feel free to skip ahead and implement calcul
 * Step 2: Calculate the angle $B = {360.0 \over n}$
 * Step 3: Calculate the angle $A = {1 \over 2} * B$
 * Step 4: Calculate the length of 1 triangle base $s = 2 * sin(A)$ **HINT: YOU NEED TO CONVERT A to RADIANS**
+    * Math.sin(), and Math.toRadians() will be your friends.
 * Step 5: Get the polygon perimeter $p = n * s$
 * Step 6: Estimate PI: $PI = {p \over 2}$
 
